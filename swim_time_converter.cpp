@@ -12,6 +12,8 @@ void main()
 	cin << "What is the time? Give response in form \"MM:SS.DD\", for example \"04:25.36\". " << time;
 
 	// Perfrom calculations
+	// TODO
 
 	// Output results
+	// TODO
 }
