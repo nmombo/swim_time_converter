@@ -27,14 +27,26 @@ void main()
 	// Perfrom calculations
 	if (unit = "SCY")
 	{
+		if (unitTo == unit)
+		{
+			cout << "Cannot convert to same type. Expected\"SCM\" or \"LCM\"" << endl;
+		}
 		// TODO
 	}
 	else if (unit = "SCM")
 	{
+		if (unitTo == unit)
+		{
+			cout << "Cannot convert to same type. Expected\"SCY\" or \"LCM\"" << endl;
+		}
 		// TODO
 	}
 	else if (unit = "LCM")
 	{
+		if (unitTo == unit)
+		{
+			cout << "Cannot convert to same type. Expected\"SCY\" or \"SCM\"" << endl;
+		}
 		// TODO
 	}
 	else
