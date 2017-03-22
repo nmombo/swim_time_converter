@@ -6,12 +6,15 @@ void main()
 {
 	// Receive input data
 	cout << "This program can convert swiming times between SCY, SCM, and LCM." << endl;
+	cout << "What is the length of the event? Give response in form \"distance, pool length\", for example \"100 SCY\". ";
 	string length;
-	cin >> "What is the length of the event? Give response in form \"distance, pool length\", for example \"100 SCY\". " << length;
+	cin >> length;
+	cout >> "What is the time? Give response in form \"MM:SS.DD\", for example \"04:25.36\". ";
 	string time;
-	cin >> "What is the time? Give response in form \"MM:SS.DD\", for example \"04:25.36\". " << time;
+	cin >> time;
+	cout<< "To what pool type would you like to convert? Options: SCY, SCM, or LCM. ";
 	string unitTo;
-	cin >> "To what pool type would you like to convert? Options: SCY, SCM, or LCM. " >> unitTo;
+	cin >> unitTo;
 	cout << endl;
 
 	// Parse length input
